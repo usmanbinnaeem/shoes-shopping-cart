@@ -24,17 +24,6 @@ export default class Product extends Component {
                 <Link to="/details">
                   <img src={img} alt={title} className="card-img-top" />
                 </Link>
-
-                <div
-                  className="product__rating hide"
-                  style={{ marginTop: "40px" }}
-                >
-                  {Array(rating)
-                    .fill()
-                    .map((_, i) => (
-                      <p>🌟</p>
-                    ))}
-                </div>
                 <button
                   className="cart-btn"
                   disabled={inCart ? true : false}

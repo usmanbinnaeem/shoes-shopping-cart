@@ -11,13 +11,6 @@ function HomeDesign({ id, title, image, price, rating }) {
           <small>£</small>
           <strong>{price}</strong>
         </p>
-        <div className="product__rating hide">
-          {Array(rating)
-            .fill()
-            .map((_, i) => (
-              <p>🌟</p>
-            ))}
-        </div>
       </div>
 
       <img src={image} alt="" />
