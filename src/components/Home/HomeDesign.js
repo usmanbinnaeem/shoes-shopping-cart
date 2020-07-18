@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeDesign.css";
 import { Link } from "react-router-dom";
 
-function HomeDesign({ id, title, image, price, rating }) {
+function HomeDesign({ id, title, image, price }) {
   return (
     <Link to="/shop" className="product home__link">
       <div className="product__info">

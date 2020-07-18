@@ -8,7 +8,7 @@ import "../App.css";
 
 export default class Product extends Component {
   render() {
-    const { id, title, img, price, inCart, rating } = this.props.product;
+    const { id, title, img, price, inCart } = this.props.product;
 
     return (
       <ProductWrapper className="col-9 col-sm-6 col-md-4 col-lg-3">
