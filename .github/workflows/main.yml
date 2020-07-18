@@ -33,4 +33,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: run surge
-      run: surge ./build shoe-cart.surge.sh/ --token ${{ secrets.SUTGE_TOKEN }}
+      run: surge ./build shoe-cart.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
